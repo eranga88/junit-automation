@@ -29,6 +29,7 @@ pipeline {
         stage('Test-2'){
             steps{
                 //build job: 'demo-pipeline', parameters: [[$class: 'StringParameterValue', name: 'systemname', value: systemname]]
+                sh 'pwd '
             }
         }
         

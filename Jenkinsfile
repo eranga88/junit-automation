@@ -28,7 +28,7 @@ pipeline {
         
         stage('Test-2'){
             steps{
-                build job: 'freestyle-project'
+                build job: 'test-google'
             }
         }
         

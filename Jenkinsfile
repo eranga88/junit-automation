@@ -30,6 +30,7 @@ pipeline {
             steps{
                 //build job: 'demo-pipeline', parameters: [[$class: 'StringParameterValue', name: 'systemname', value: systemname]]
                 sh 'pwd '
+                build job: 'demo-pipeline'
             }
         }
         
